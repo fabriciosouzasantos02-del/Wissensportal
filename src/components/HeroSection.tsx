@@ -24,7 +24,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ currentLang }) => {
       <div 
         className="absolute inset-0 opacity-10 pointer-events-none bg-cover bg-center mix-blend-overlay"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=1600&q=80')`,
+          backgroundImage: `url('/assets/hero-archive-bg.webp')`,
         }}
       />
 
@@ -96,9 +96,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ currentLang }) => {
           <div className="bg-[#0b120d] rounded-[15px] p-4 sm:p-6 flex flex-col md:flex-row items-center gap-6 text-left">
             {/* Botanical Card Image */}
             <div className="relative w-full md:w-56 h-48 md:h-44 rounded-xl overflow-hidden shrink-0 border border-[#c5a059]/30 shadow-inner group">
-              <img
-                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80"
-                alt="Botanical illustration"
+                <img
+                  src="/assets/hero-apothecary.webp"
+                  alt="Aged botanical manuscript with medicinal herbs and apothecary bottles"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />

@@ -296,7 +296,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✦ Leber, Nieren und Gallenblase',
         description: 'Intensive traditionelle Heilmittel und natürliche Ressourcen für die tägliche Pflanzenpflege.',
         herbs: ['Löwenzahnwurzel', 'Mariendistel', 'Artischocke', 'Goldrute'],
-        image: 'https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-liver-kidneys.webp'
       },
       {
         symbol: '◌',
@@ -304,7 +304,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◌ Herz und Kreislauf',
         description: 'Traditionelle Rezepte und Achtsamkeitsübungen für Durchblutung und Wohlbefinden.',
         herbs: ['Weißdorn', 'Mistelkraut', 'Knoblauchextrakt', 'Melisse'],
-        image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-circulation.webp'
       },
       {
         symbol: '✧',
@@ -312,7 +312,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✧ Chronische Schmerzen und Entzündungen',
         description: 'Traditionelle Anwendungen umfassen Kompressen, Bäder, Öle und Salben.',
         herbs: ['Weidenrinde', 'Teufelskralle', 'Arnika-Öl', 'Beinwell'],
-        image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-pain-inflammation.webp'
       },
       {
         symbol: '◈',
@@ -320,7 +320,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◈ Chronische Erkrankungen und Beschwerden',
         description: 'Unterstützende und vorbeugende Anwendungen als Ergänzung zur professionellen Behandlung.',
         herbs: ['Kurkuma-Mazerat', 'Schwarzkümmelöl', 'Propolis', 'Schafgarbe'],
-        image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-prevention-support.webp'
       },
       {
         symbol: '⋆',
@@ -328,7 +328,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '⋆ Nervensystem und Immunsystem',
         description: 'Rezepte zur Linderung von Unruhe und Schlafproblemen sowie zur Stärkung der natürlichen Abwehrkräfte.',
         herbs: ['Passionsblume', 'Baldrianwurzel', 'Echinacea', 'Hagebutte'],
-        image: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-calm-immunity.webp'
       }
     ],
 
@@ -499,7 +499,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✦ Fígado, Rins e Vesícula Biliar',
         description: 'Remédios tradicionais intensivos e recursos naturais para o cuidado botânico diário.',
         herbs: ['Raiz de dente-de-leão', 'Cardo-mariano', 'Alcachofra', 'Vara-de-ouro'],
-        image: 'https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-liver-kidneys.webp'
       },
       {
         symbol: '◌',
@@ -507,7 +507,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◌ Coração e Circulação Sanguínea',
         description: 'Receitas tradicionais e exercícios de atenção para circulação e bem-estar.',
         herbs: ['Espinheiro-branco', 'Visco', 'Extrato de alho', 'Erva-cidreira'],
-        image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-circulation.webp'
       },
       {
         symbol: '✧',
@@ -515,7 +515,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✧ Dores Crônicas e Inflamações',
         description: 'Aplicações tradicionais incluem compressas, banhos medicinais, óleos e pomadas.',
         herbs: ['Casca de salgueiro', 'Garra-do-diabo', 'Óleo de arnica', 'Confrei'],
-        image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-pain-inflammation.webp'
       },
       {
         symbol: '◈',
@@ -523,7 +523,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◈ Doenças Crônicas e Queixas Recorrentes',
         description: 'Aplicações preventivas e de apoio como complemento ao tratamento médico.',
         herbs: ['Macerado de cúrcuma', 'Óleo de cominho preto', 'Própolis', 'Mil-folhas'],
-        image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-prevention-support.webp'
       },
       {
         symbol: '⋆',
@@ -531,7 +531,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '⋆ Sistema Nervoso e Sistema Imunológico',
         description: 'Receitas para aliviar a ansiedade e insônia, além de fortalecer as defesas naturais.',
         herbs: ['Passiflora', 'Raiz de valeriana', 'Equinácea', 'Rosa-mosqueta'],
-        image: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-calm-immunity.webp'
       }
     ],
 
@@ -702,7 +702,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✦ Liver, Kidneys, and Gallbladder',
         description: 'Intensive traditional remedies and natural resources for daily botanical care.',
         herbs: ['Dandelion root', 'Milk thistle', 'Artichoke', 'Goldenrod'],
-        image: 'https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-liver-kidneys.webp'
       },
       {
         symbol: '◌',
@@ -710,7 +710,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◌ Heart and Circulation',
         description: 'Traditional recipes and mindfulness exercises for circulation and well-being.',
         herbs: ['Hawthorn', 'Mistletoe', 'Garlic extract', 'Lemon balm'],
-        image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-circulation.webp'
       },
       {
         symbol: '✧',
@@ -718,7 +718,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✧ Chronic Pain and Inflammation',
         description: 'Traditional applications include compresses, medicinal baths, oils, and salves.',
         herbs: ['Willow bark', 'Devil’s claw', 'Arnica oil', 'Comfrey'],
-        image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-pain-inflammation.webp'
       },
       {
         symbol: '◈',
@@ -726,7 +726,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◈ Chronic Conditions and Recurrent Ailments',
         description: 'Preventative and supportive applications as a complement to medical care.',
         herbs: ['Turmeric extract', 'Black seed oil', 'Propolis', 'Yarrow'],
-        image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-prevention-support.webp'
       },
       {
         symbol: '⋆',
@@ -734,7 +734,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '⋆ Nervous System and Immune System',
         description: 'Recipes to relieve anxiety and insomnia, and to strengthen natural defenses.',
         herbs: ['Passionflower', 'Valerian root', 'Echinacea', 'Rosehips'],
-        image: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-calm-immunity.webp'
       }
     ],
 
@@ -905,7 +905,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✦ Hígado, Riñones y Vesícula Biliar',
         description: 'Remedios tradicionales intensivos y recursos naturales para el cuidado botánico diario.',
         herbs: ['Raíz de diente de león', 'Cardo mariano', 'Alcachofa', 'Vara de oro'],
-        image: 'https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-liver-kidneys.webp'
       },
       {
         symbol: '◌',
@@ -913,7 +913,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◌ Corazón y Circulación Sanguínea',
         description: 'Recetas tradicionales y ejercicios de atención para la circulación y el bienestar.',
         herbs: ['Espino blanco', 'Muérdago', 'Extracto de ajo', 'Melisa'],
-        image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-circulation.webp'
       },
       {
         symbol: '✧',
@@ -921,7 +921,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✧ Dolores Crónicos e Inflamaciones',
         description: 'Las aplicaciones tradicionales incluyen compresas, baños medicinales, aceites y pomadas.',
         herbs: ['Corteza de sauce', 'Harpagofito', 'Aceite de árnica', 'Consuelda'],
-        image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-pain-inflammation.webp'
       },
       {
         symbol: '◈',
@@ -929,7 +929,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◈ Enfermedades Crónicas y Molestias Recurrentes',
         description: 'Aplicaciones preventivas y de apoyo como complemento al tratamiento médico.',
         herbs: ['Macerado de cúrcuma', 'Aceite de comino negro', 'Própolis', 'Milenrama'],
-        image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-prevention-support.webp'
       },
       {
         symbol: '⋆',
@@ -937,7 +937,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '⋆ Sistema Nervoso e Sistema Inmunológico',
         description: 'Recetas para aliviar la ansiedad y el insomnio, además de fortalecer las defensas naturales.',
         herbs: ['Pasiflora', 'Raíz de valeriana', 'Equinácea', 'Escaramujo'],
-        image: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-calm-immunity.webp'
       }
     ],
 
@@ -1108,7 +1108,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✦ Foie, Reins et Vésicule Biliaire',
         description: 'Remèdes traditionnels intensifs et ressources naturelles pour les soins botaniques quotidiens.',
         herbs: ['Racine de pissenlit', 'Chardon-Marie', 'Artichaut', 'Verge d’or'],
-        image: 'https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-liver-kidneys.webp'
       },
       {
         symbol: '◌',
@@ -1116,7 +1116,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◌ Cœur et Circulation Sanguine',
         description: 'Recettes traditionnelles et exercices d\'attention pour la circulation et le bien-être.',
         herbs: ['Aubépine', 'Gui', 'Extrait d’ail', 'Mélisse'],
-        image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-circulation.webp'
       },
       {
         symbol: '✧',
@@ -1124,7 +1124,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '✧ Douleurs Chroniques et Inflammations',
         description: 'Les applications traditionnelles comprennent les compresses, les bains médicinaux, les huiles et les onguents.',
         herbs: ['Écorce de saule', 'Harpagophytum', 'Huile d’arnica', 'Consoude'],
-        image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-pain-inflammation.webp'
       },
       {
         symbol: '◈',
@@ -1132,7 +1132,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '◈ Maladies Chroniques et Troubles Récurrents',
         description: 'Applications préventives et de soutien en complément du traitement médical.',
         herbs: ['Macérat de curcuma', 'Huile de nigelle', 'Propolis', 'Achillée'],
-        image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-prevention-support.webp'
       },
       {
         symbol: '⋆',
@@ -1140,7 +1140,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         title: '⋆ Système Nerveux et Système Immunitaire',
         description: 'Recettes pour soulager l\'anxiété et l\'insomnie, et renforcer les défenses naturelles.',
         herbs: ['Passiflore', 'Racine de valériane', 'Échinacée', 'Cynorrhodon'],
-        image: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80'
+        image: '/assets/category-calm-immunity.webp'
       }
     ],
 

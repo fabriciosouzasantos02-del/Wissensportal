@@ -172,7 +172,7 @@ export const VslVideoPlayer: React.FC<VslVideoPlayerProps> = ({ currentLang = 'd
         <div 
           className="absolute inset-0 bg-cover bg-center transition-opacity duration-700"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1512290900672-1f5be5722378?auto=format&fit=crop&w=1600&q=85')`,
+            backgroundImage: `url('/assets/vsl-archive-poster.webp')`,
             opacity: hasStarted ? 0.3 : 1
           }}
         />

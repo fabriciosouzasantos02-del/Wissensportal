@@ -1,0 +1,6 @@
+{
+  "name": "Die verbotene Apotheke · Archiv 1910",
+  "description": "Exklusive Web-App-Plattform und überlieferte Manuskripte für über 300 natürliche Heilmittel, Tees und traditionelle Rezepturen aus dem Archiv von 1910.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

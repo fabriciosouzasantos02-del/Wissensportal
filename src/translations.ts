@@ -392,16 +392,16 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
         answer: "Ja, absolut. Die gesamte Plattform wurde speziell für Smartphones und Tablets optimiert. Sie funktioniert reibungslos in jedem mobilen Browser (inklusive WhatsApp, Instagram und Facebook Webviews), benötigt keinen Speicherplatz auf Ihrem Gerät und passt sich allen Bildschirmgrößen perfekt an."
       }
     ],
-    finalCallout: "Nehmen Heute die Entscheidung für ein bewussteres und natürlicheres Leben.",
-    finalDesc: "Erhalten Sie sofortigen, lebenslangen Zugriff auf über 300 Manuskripte und erprobte Rezepturen aus dem Jahr 1910.",
-    finalCta: "Ich möchte das Manuskript jetzt!",
-    finalGuaranteePill: "15 Tage risikofreie Geld-zurück-Garantie · Einmalig 33 €",
-    footerOrg: "Naturheilkunde · Gruppe für natürliche Heilmethoden",
-    footerDisclaimer: "Traditionelles Informationsmaterial. Es ersetzt keine individuelle Beratung durch medizinische Fachkräfte. Suchen Sie für Ihre weitere Behandlung stets einen qualifizierten Experten für Naturheilkunde auf.",
+    finalCallout: "Entscheiden Sie sich noch heute für ein bewussteres und natürlicheres Leben.",
+    finalDesc: "Erhalten Sie sofortigen und lebenslangen Zugang zu mehr als 300 natürlichen Lösungen und Rezepten, die auf bewährten historischen Aufzeichnungen basieren.",
+    finalCta: "Ich möchte die Manuskripte jetzt!",
+    finalGuaranteePill: "Bedingungslose 15-Tage-Garantie · Einmalzahlung von 33 €",
+    footerOrg: "Naturopathia · Gruppe für natürliche Heilmethoden",
+    footerDisclaimer: "Bewährtes Informationsmaterial und historisch überliefertes Wissen. Dies ersetzt keine Beratung, Diagnose oder Behandlung durch medizinisches Fachpersonal. Ziehen Sie für Unterstützung und Diagnosen stets eine qualifizierte Fachkraft für Naturheilkunde hinzu.",
     legalNotice: "Rechtlicher Hinweis",
     legalRedirectPart1: "",
     legalRedirectPart2: "",
-    copyright: "2026 Naturheilkunde · Gruppe für natürliche Heilmethoden",
+    copyright: "2026 Naturopathia · Gruppe für natürliche Heilmethoden",
 
     // Sticky Bar
     stickyOneTime: "Einmalig",

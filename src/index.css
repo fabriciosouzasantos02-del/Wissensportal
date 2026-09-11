@@ -11,6 +11,8 @@
     font-family: var(--font-sans);
     background-color: #080d09;
     color: #e5dfd5;
+    font-size: 16px;
+    line-height: 1.55;
     -webkit-tap-highlight-color: transparent;
     padding-top: env(safe-area-inset-top);
     padding-bottom: env(safe-area-inset-bottom);
@@ -24,7 +26,26 @@
   }
 
   .font-serif-body {
-    font-family: var(--font-serif);
+    /* Use the same clear sans-serif reading style throughout the page. */
+    font-family: var(--font-sans);
+    letter-spacing: 0;
+  }
+}
+
+/* Readability baseline: keep labels and legal/support copy comfortably legible. */
+@layer utilities {
+  .text-xs {
+    font-size: 0.8125rem;
+    line-height: 1.4;
+  }
+
+  [class*="text-[7px]"],
+  [class*="text-[8px]"],
+  [class*="text-[9px]"],
+  [class*="text-[10px]"],
+  [class*="text-[11px]"] {
+    font-size: 0.75rem;
+    line-height: 1.35;
   }
 }
 

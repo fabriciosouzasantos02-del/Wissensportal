@@ -7,7 +7,6 @@ import { Section03Discover } from './components/Section03Discover';
 import { Section04HowItWorks } from './components/Section04HowItWorks';
 import { Section05PricingGuarantee } from './components/Section05PricingGuarantee';
 import { Section06FAQ } from './components/Section06FAQ';
-import { StickyMobileBar } from './components/StickyMobileBar';
 import { SupportedLanguage, detectUserLanguage } from './translations';
 
 export default function App() {
@@ -53,7 +52,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#080d09] text-[#e3ded4] font-sans selection:bg-[#dfb76c] selection:text-[#080d09] pb-16 sm:pb-0">
+    <div className="min-h-screen bg-[#080d09] text-[#e3ded4] font-sans selection:bg-[#dfb76c] selection:text-[#080d09]">
       {/* Top Banner: In-App Browser Detection & Language Switcher (DE, PT, EN, ES, FR) */}
       <LanguageBanner 
         currentLang={currentLang} 
@@ -85,8 +84,6 @@ export default function App() {
         <Section06FAQ currentLang={currentLang} />
       </main>
 
-      {/* Sticky Quick-Access Bar for Smartphone & Social In-App Visitors */}
-      <StickyMobileBar currentLang={currentLang} />
     </div>
   );
 }

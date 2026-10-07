@@ -29,6 +29,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ currentLang }) => {
       />
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 flex flex-col items-center text-center">
+        <img
+          src="/assets/wissensportal-logo.png"
+          alt="WISSENSPORTAL"
+          className="mb-5 h-24 w-24 rounded-2xl border border-[#c5a059]/60 object-cover shadow-[0_8px_28px_rgba(0,0,0,.6)] sm:h-28 sm:w-28"
+        />
         
         {/* Eyebrow / Dossier Header */}
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#162319] border border-[#c5a059]/40 text-[#dfb76c] text-xs sm:text-sm font-semibold tracking-wider uppercase shadow-lg shadow-black/40 mb-4 animate-fade-in">

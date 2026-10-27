@@ -29,13 +29,18 @@ const VIDEO_STREAMS = [
   { id: 'fallback-webm', src: '/video/naturlich-1910.webm', type: 'video/webm', label: 'WebM' },
 ];
 
+const getInitialVideoIndex = () => {
+  if (typeof window === 'undefined') return 0;
+  return window.matchMedia('(max-width: 767px)').matches ? 1 : 0;
+};
+
 export const VslVideoPlayer: React.FC<VslVideoPlayerProps> = ({ currentLang = 'de' }) => {
   const t = translations[currentLang] || translations.de;
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
-  const [activeTagIndex, setActiveTagIndex] = useState(0);
+  const [activeTagIndex, setActiveTagIndex] = useState(getInitialVideoIndex);
   const [hasStarted, setHasStarted] = useState(false);
   const [switchNotice, setSwitchNotice] = useState<string | null>(null);
   const [showControls, setShowControls] = useState(true);
@@ -167,7 +172,7 @@ export const VslVideoPlayer: React.FC<VslVideoPlayerProps> = ({ currentLang = 'd
             }`}
             src={stream.src}
             playsInline
-            preload={index === 0 ? 'metadata' : 'none'}
+            preload={index === activeTagIndex ? 'metadata' : 'none'}
             muted={isMuted}
             controls={false}
             controlsList="nodownload noremoteplayback"

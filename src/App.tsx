@@ -5,7 +5,6 @@ import { Section01Pharma } from './components/Section01Pharma';
 import { Section02Platform } from './components/Section02Platform';
 import { Section03Discover } from './components/Section03Discover';
 import { Section04HowItWorks } from './components/Section04HowItWorks';
-import { Section05PricingGuarantee } from './components/Section05PricingGuarantee';
 import { Section06FAQ } from './components/Section06FAQ';
 import { SupportedLanguage, detectUserLanguage } from './translations';
 
@@ -76,9 +75,6 @@ export default function App() {
 
         {/* Section 04: SO FUNKTIONIERT ES */}
         <Section04HowItWorks currentLang={currentLang} />
-
-        {/* Section 05: LEBENSLANGER ZUGRIFF AUF DIE ALTÜBERTRAGTEN MANUSKRIPTE & 15-Tage-Garantie */}
-        <Section05PricingGuarantee currentLang={currentLang} />
 
         {/* Section 06: HÄUFIG GESTELLTE FRAGEN & Rechtlicher Hinweis */}
         <Section06FAQ currentLang={currentLang} />

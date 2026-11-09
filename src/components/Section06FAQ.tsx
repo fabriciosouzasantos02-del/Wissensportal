@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, ArrowRight, ShieldCheck } from 'lucide-react';
+import { ChevronDown, ArrowRight } from 'lucide-react';
 import { HOTMART_CHECKOUT_URL } from '../types';
 import { SupportedLanguage, translations } from '../translations';
 
@@ -94,11 +94,6 @@ export const Section06FAQ: React.FC<Section06FAQProps> = ({ currentLang }) => {
                 <span>{t.finalCta}</span>
                 <ArrowRight className="w-5 h-5 text-[#080d09]" />
               </a>
-            </div>
-
-            <div className="text-xs text-[#9f9685] flex items-center justify-center gap-2">
-              <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>{t.finalGuaranteePill}</span>
             </div>
 
           </div>

@@ -162,28 +162,6 @@ export interface TranslationBundle {
   sec04Step3Desc: string;
   sec04Step3Footer: string;
 
-  // Section 05
-  sec05Tag: string;
-  sec05Title: string;
-  sec05Badge: string;
-  sec05PriceCaption: string;
-  sec05PriceTag: string;
-  sec05Condition1: string;
-  sec05Condition2: string;
-  sec05Condition3: string;
-  sec05Cta: string;
-  sec05Ssl: string;
-  sec05InstantCode: string;
-  sec05BelowMarker: string;
-  sec05SealDays: string;
-  sec05SealWord: string;
-  sec05SealProtection: string;
-  sec05SealCaption: string;
-  sec05GuaranteeTitle: string;
-  sec05GuaranteeDesc1: string;
-  sec05GuaranteeDesc2: string;
-  sec05GuaranteeExtra: string;
-
   // Section 06
   sec06Tag: string;
   sec06Title: string;
@@ -191,7 +169,6 @@ export interface TranslationBundle {
   finalCallout: string;
   finalDesc: string;
   finalCta: string;
-  finalGuaranteePill: string;
   footerOrg: string;
   footerDisclaimer: string;
   legalNotice: string;
@@ -199,10 +176,6 @@ export interface TranslationBundle {
   legalRedirectPart2: string;
   copyright: string;
 
-  // Sticky Bar
-  stickyOneTime: string;
-  stickyGuarantee: string;
-  stickyCta: string;
 }
 
 export const translations: Record<SupportedLanguage, TranslationBundle> = {
@@ -349,28 +322,6 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     sec04Step3Desc: "Konzentrierte Aufgüsse, Tinkturen, dermatologische Salben, warme Kompressen und Sirupe.",
     sec04Step3Footer: "Vielfältige Hausmittel-Formen",
 
-    // Section 05
-    sec05Tag: "LEBENSLANGER ZUGRIFF",
-    sec05Title: "Sichern Sie sich dauerhaften Zugriff auf historische Ahnen-Archive, Techniken, Rezepte, natürliche Heilmittel und natürliche Ressourcen – Heilung von innen heraus",
-    sec05Badge: "Offizielle Web-App-Lizenz · Einmaliger Sonderzugang",
-    sec05PriceCaption: "",
-    sec05PriceTag: "21 €",
-    sec05Condition1: "Einmalige Zahlung.",
-    sec05Condition2: "Keine monatlichen Gebühren.",
-    sec05Condition3: "Keine weiteren Kosten.",
-    sec05Cta: "ICH MÖCHTE JETZT AUF DIE MANUSKRIPTE ZUGREIFEN",
-    sec05Ssl: "SSL 256-Bit Verschlüsselte Zahlung",
-    sec05InstantCode: "Sofortiger Freischalt-Code per E-Mail",
-    sec05BelowMarker: "",
-    sec05SealDays: "15 TAGE",
-    sec05SealWord: "GARANTIE",
-    sec05SealProtection: "100% SCHUTZ",
-    sec05SealCaption: "",
-    sec05GuaranteeTitle: "Zufriedenheitsgarantie – Volle Kostenübernahme",
-    sec05GuaranteeDesc1: "Testen Sie es 15 Tage lang risikofrei. Greifen Sie auf die Plattform zu.",
-    sec05GuaranteeDesc2: "Sie können innerhalb von 15 Tagen eine Rückerstattung beantragen.",
-    sec05GuaranteeExtra: "Sollten Sie aus irgendeinem Grund nicht absolut überzeugt sein, genügt eine kurze formlose E-Mail an unseren Kundenservice, und der volle Betrag von 21 € wird Ihnen ohne Rückfragen sofort erstattet.",
-
     // Section 06
     sec06Tag: "06 / HÄUFIG GESTELLTE FRAGEN",
     sec06Title: "Alles Wichtige auf einen Blick.",
@@ -385,7 +336,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       },
       {
         question: "Wie erhalte ich Zugriff?",
-        answer: "Unmittelbar nach der sicheren Zahlung über Hotmart erhalten Sie innerhalb von Sekunden eine Bestätigungs-E-Mail mit Ihren persönlichen Zugangsdaten und dem Direktlink zur geschützten Web-App-Plattform. Sie können sofort und ohne jegliche Wartezeit loslegen."
+        answer: "Sobald Sie das Formular bei Hotmart vollständig ausgefüllt haben, erhalten Sie umgehend eine E-Mail mit Ihren Zugangsdaten und dem direkten Link zur Webplattform. Sie können sofort loslegen."
       },
       {
         question: "Kann ich es auf meinem Smartphone lesen?",
@@ -393,9 +344,8 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       }
     ],
     finalCallout: "Entscheiden Sie sich noch heute für ein bewussteres und natürlicheres Leben.",
-    finalDesc: "Erhalten Sie sofortigen und lebenslangen Zugang zu mehr als 300 natürlichen Lösungen und Rezepten, die auf bewährten historischen Aufzeichnungen basieren.",
+    finalDesc: "Erhalten Sie sofortigen Zugang zu mehr als 300 Manuskripten und erprobten Rezepten aus dem Jahr 1910.",
     finalCta: "Ich möchte die Manuskripte jetzt!",
-    finalGuaranteePill: "Bedingungslose 15-Tage-Garantie · Einmalzahlung von 21 €",
     footerOrg: "Naturopathia · Gruppe für natürliche Heilmethoden",
     footerDisclaimer: "Bewährtes Informationsmaterial und historisch überliefertes Wissen. Dies ersetzt keine Beratung, Diagnose oder Behandlung durch medizinisches Fachpersonal. Ziehen Sie für Unterstützung und Diagnosen stets eine qualifizierte Fachkraft für Naturheilkunde hinzu.",
     legalNotice: "Rechtlicher Hinweis",
@@ -403,10 +353,6 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     legalRedirectPart2: "",
     copyright: "2026 Naturopathia · Gruppe für natürliche Heilmethoden",
 
-    // Sticky Bar
-    stickyOneTime: "Einmalig",
-    stickyGuarantee: "15 Tage Garantie",
-    stickyCta: "Jetzt zum Portal"
   },
 
   pt: {
@@ -552,28 +498,6 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     sec04Step3Desc: "Chás concentrados, tinturas alcoólicas, pomadas dermatológicas, compressas mornas e xaropes terapêuticos.",
     sec04Step3Footer: "Diversas formas de remédios caseiros",
 
-    // Section 05
-    sec05Tag: "ACESSO VITALÍCIO",
-    sec05Title: "Garanta acesso duradouro aos arquivo históricos ancestrais técnicas receitas remédios naturais recursos naturais cura de dentro pra fora",
-    sec05Badge: "Licença Oficial Web-App · Acesso Especial Único",
-    sec05PriceCaption: "",
-    sec05PriceTag: "21 €",
-    sec05Condition1: "Pagamento único.",
-    sec05Condition2: "Sem mensalidades ou assinaturas.",
-    sec05Condition3: "Sem nenhum custo adicional posterior.",
-    sec05Cta: "QUERO ACESSAR OS MANUSCRITOS AGORA",
-    sec05Ssl: "Pagamento Criptografado SSL 256-Bit",
-    sec05InstantCode: "Código de ativação imediato por e-mail",
-    sec05BelowMarker: "",
-    sec05SealDays: "15 DIAS",
-    sec05SealWord: "GARANTIA",
-    sec05SealProtection: "100% SEGURO",
-    sec05SealCaption: "",
-    sec05GuaranteeTitle: "Garantia de Satisfação – Reembolso Integral",
-    sec05GuaranteeDesc1: "Experimente sem riscos por 15 dias completos. Acesse a plataforma.",
-    sec05GuaranteeDesc2: "Você pode solicitar reembolso total dentro do prazo de 15 dias.",
-    sec05GuaranteeExtra: "Se por qualquer razão você não estiver 100% satisfeito, basta enviar um e-mail simples e o valor integral de 21 € será devolvido na hora, sem perguntas.",
-
     // Section 06
     sec06Tag: "06 / PERGUNTAS FREQUENTES",
     sec06Title: "Tudo o que você precisa saber.",
@@ -588,7 +512,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       },
       {
         question: "Como recebo o acesso?",
-        answer: "Logo após a confirmação do pagamento seguro pela Hotmart, você recebe instantaneamente um e-mail com seus dados de acesso e o link direto para a plataforma web. Pode começar na hora."
+        answer: "Logo após preencher todo o formulário pela Hotmart, você receberá instantaneamente um e-mail com seus dados de acesso e o link direto para a plataforma web. Pode começar na hora."
       },
       {
         question: "Posso acessar pelo meu celular?",
@@ -596,9 +520,8 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       }
     ],
     finalCallout: "Tome hoje a decisão por uma vida mais consciente e natural.",
-    finalDesc: "Receba acesso vitalício imediato a mais de 300 manuscritos e receitas testadas do ano de 1910.",
+    finalDesc: "Receba acesso imediato a mais de 300 manuscritos e receitas testadas do ano de 1910.",
     finalCta: "Quero os manuscritos agora!",
-    finalGuaranteePill: "Garantia incondicional de 15 dias · Pagamento único de 21 €",
     footerOrg: "Naturopatia · Grupo de Métodos Naturais de Cura",
     footerDisclaimer: "Material informativo e de preservação histórica. Não substitui consulta, diagnóstico ou acompanhamento de profissionais habilitados de saúde.",
     legalNotice: "Aviso Legal",
@@ -606,10 +529,6 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     legalRedirectPart2: "",
     copyright: "2026 Naturopatia · Grupo de Métodos Naturais de Cura",
 
-    // Sticky Bar
-    stickyOneTime: "Pagamento único",
-    stickyGuarantee: "15 dias de garantia",
-    stickyCta: "Acessar o Portal"
   },
 
   en: {
@@ -755,28 +674,6 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     sec04Step3Desc: "Potent herbal teas, concentrated tinctures, dermatological salves, warm compresses, and syrups.",
     sec04Step3Footer: "Diverse home remedy formats",
 
-    // Section 05
-    sec05Tag: "LIFETIME ACCESS",
-    sec05Title: "Secure lifetime access to ancestral historical archives, techniques, recipes, natural remedies, and natural resources – healing from within",
-    sec05Badge: "Official Web-App License · One-Time Special Access",
-    sec05PriceCaption: "",
-    sec05PriceTag: "21 €",
-    sec05Condition1: "One-time payment.",
-    sec05Condition2: "No monthly fees or subscriptions.",
-    sec05Condition3: "No additional subsequent costs.",
-    sec05Cta: "I WANT TO ACCESS THE MANUSCRIPTS NOW",
-    sec05Ssl: "SSL 256-Bit Encrypted Payment",
-    sec05InstantCode: "Immediate activation code by email",
-    sec05BelowMarker: "",
-    sec05SealDays: "15 DAYS",
-    sec05SealWord: "GUARANTEE",
-    sec05SealProtection: "100% PROTECTED",
-    sec05SealCaption: "",
-    sec05GuaranteeTitle: "Satisfaction Guarantee – Full Refund",
-    sec05GuaranteeDesc1: "Test it risk-free for 15 full days. Explore the entire web platform.",
-    sec05GuaranteeDesc2: "You can request a 100% refund anytime within 15 days.",
-    sec05GuaranteeExtra: "If for any reason you are not completely satisfied, a brief email to support will yield an immediate, no-questions-asked refund of your 21 €.",
-
     // Section 06
     sec06Tag: "06 / FREQUENTLY ASKED QUESTIONS",
     sec06Title: "Everything you need to know at a glance.",
@@ -791,7 +688,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       },
       {
         question: "How do I receive access?",
-        answer: "Immediately after your secure payment through Hotmart, you will receive an instant confirmation email with your login credentials and direct link to the protected web platform."
+        answer: "As soon as you complete the form through Hotmart, you will immediately receive an email with your access details and the direct link to the web platform. You can get started right away."
       },
       {
         question: "Can I use it on my smartphone?",
@@ -799,9 +696,8 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       }
     ],
     finalCallout: "Make the decision today for a more conscious and natural way of living.",
-    finalDesc: "Receive immediate lifetime access to over 300 manuscripts and proven formulations from the year 1910.",
+    finalDesc: "Get immediate access to more than 300 manuscripts and tested recipes from 1910.",
     finalCta: "I want the manuscripts now!",
-    finalGuaranteePill: "15-day risk-free money-back guarantee · One-time 21 €",
     footerOrg: "Naturopathy · Natural Healing Group",
     footerDisclaimer: "Educational and historical informational material. Not intended as medical diagnosis or individual treatment advice. Always seek qualified healthcare practitioners.",
     legalNotice: "Legal Notice",
@@ -809,10 +705,6 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     legalRedirectPart2: "",
     copyright: "2026 Naturopathy · Natural Healing Group",
 
-    // Sticky Bar
-    stickyOneTime: "One-time",
-    stickyGuarantee: "15-Day Guarantee",
-    stickyCta: "Go to Portal"
   },
 
   es: {
@@ -958,28 +850,6 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     sec04Step3Desc: "Infusiones concentradas, tinturas hidroalcohólicas, pomadas, compresas templadas y jarabes.",
     sec04Step3Footer: "Formatos variados de medicina tradicional",
 
-    // Section 05
-    sec05Tag: "ACCESO DE POR VIDA",
-    sec05Title: "Asegure acceso duradero a los archivos históricos ancestrales, técnicas, recetas, remedios naturales y recursos naturales – sanación de dentro hacia afuera",
-    sec05Badge: "Licencia Oficial Web-App · Acceso Especial Único",
-    sec05PriceCaption: "",
-    sec05PriceTag: "21 €",
-    sec05Condition1: "Pago único.",
-    sec05Condition2: "Sin mensualidades o suscripciones.",
-    sec05Condition3: "Sin ningún costo adicional posterior.",
-    sec05Cta: "QUIERO ACCEDER A LOS MANUSCRITOS AHORA",
-    sec05Ssl: "Pago Cifrado SSL 256-Bit",
-    sec05InstantCode: "Código de activación inmediata por correo",
-    sec05BelowMarker: "",
-    sec05SealDays: "15 DÍAS",
-    sec05SealWord: "GARANTÍA",
-    sec05SealProtection: "100% PROTEGIDO",
-    sec05SealCaption: "",
-    sec05GuaranteeTitle: "Garantía de Satisfacción – Reembolso Íntegro",
-    sec05GuaranteeDesc1: "Pruébelo sin riesgo durante 15 días enteros. Acceda al portal.",
-    sec05GuaranteeDesc2: "Puede solicitar el reembolso del 100% en un plazo de 15 días.",
-    sec05GuaranteeExtra: "Si por cualquier motivo no queda completamente satisfecho, un correo breve bastará para recibir de vuelta sus 21 € sin preguntas.",
-
     // Section 06
     sec06Tag: "06 / PREGUNTAS FRECUENTES",
     sec06Title: "Todo lo importante en un vistazo.",
@@ -994,7 +864,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       },
       {
         question: "¿Cómo recibo el acceso?",
-        answer: "Inmediatamente después de abonar su pedido a través de Hotmart, recibirá en segundos un correo con sus claves personales y el enlace directo a la plataforma web."
+        answer: "En cuanto complete todo el formulario a través de Hotmart, recibirá inmediatamente un correo electrónico con sus datos de acceso y el enlace directo a la plataforma web. Podrá empezar enseguida."
       },
       {
         question: "¿Puedo leerlo en mi teléfono móvil?",
@@ -1002,9 +872,8 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       }
     ],
     finalCallout: "Tome hoy la decisión de vivir de manera más consciente y natural.",
-    finalDesc: "Obtenga acceso vitalicio inmediato a más de 300 manuscritos y recetas probadas del año 1910.",
+    finalDesc: "Obtenga acceso inmediato a más de 300 manuscritos y recetas probadas del año 1910.",
     finalCta: "¡Quiero los manuscritos ahora!",
-    finalGuaranteePill: "Garantía incondicional de 15 días · Pago único de 21 €",
     footerOrg: "Naturopatía · Grupo de Métodos Naturales de Curación",
     footerDisclaimer: "Material informativo tradicional. No sustituye la atención o diagnóstico de profesionales de la salud. Acuda siempre a profesionales titulados para su seguimiento.",
     legalNotice: "Aviso Legal",
@@ -1012,10 +881,6 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     legalRedirectPart2: "",
     copyright: "2026 Naturopatía · Grupo de Métodos Naturales de Curación",
 
-    // Sticky Bar
-    stickyOneTime: "Pago único",
-    stickyGuarantee: "15 días de garantía",
-    stickyCta: "Ir al Portal"
   },
 
   fr: {
@@ -1161,28 +1026,6 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     sec04Step3Desc: "Infusions concentrées, teintures mères, baumes cutanés, compresses tièdes et sirops.",
     sec04Step3Footer: "Formats variés de remèdes naturels",
 
-    // Section 05
-    sec05Tag: "ACCÈS À VIE",
-    sec05Title: "Obtenez un accès durable aux archives historiques ancestrales, techniques, recettes, remèdes naturels et ressources naturelles – guérison de l'intérieur",
-    sec05Badge: "Licence Officielle Web-App · Accès Spécial Unique",
-    sec05PriceCaption: "",
-    sec05PriceTag: "21 €",
-    sec05Condition1: "Paiement unique.",
-    sec05Condition2: "Pas d'abonnements mensuels.",
-    sec05Condition3: "Aucun coût supplémentaire ultérieur.",
-    sec05Cta: "JE VEUX ACCÉDER AUX MANUSCRITS MAINTENANT",
-    sec05Ssl: "Paiement Chiffré SSL 256-Bit",
-    sec05InstantCode: "Code d'activation immédiat par e-mail",
-    sec05BelowMarker: "",
-    sec05SealDays: "15 JOURS",
-    sec05SealWord: "GARANTIE",
-    sec05SealProtection: "100% SÉCURISÉ",
-    sec05SealCaption: "",
-    sec05GuaranteeTitle: "Garantie de Satisfaction – Remboursement Intégral",
-    sec05GuaranteeDesc1: "Testez pendant 15 jours sans le moindre risque. Accédez au portail.",
-    sec05GuaranteeDesc2: "Vous pouvez demander un remboursement complet sous 15 jours.",
-    sec05GuaranteeExtra: "Si pour quelque raison que ce soit vous n'étiez pas conquis(e), un simple courriel à notre support entraînera le remboursement immédiat de vos 21 €.",
-
     // Section 06
     sec06Tag: "06 / QUESTIONS FRÉQUEMMENT POSÉES",
     sec06Title: "L'essentiel en toute transparence.",
@@ -1197,7 +1040,7 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       },
       {
         question: "Comment reçois-je l'accès ?",
-        answer: "Immédiatement après validation du règlement sécurisé sur Hotmart, vous recevez un courriel contenant vos identifiants et le lien direct vers la plateforme en ligne."
+        answer: "Dès que vous aurez rempli le formulaire Hotmart, vous recevrez immédiatement un e-mail contenant vos identifiants et le lien direct vers la plateforme en ligne. Vous pourrez commencer tout de suite."
       },
       {
         question: "Puis-je l'utiliser sur mon smartphone ?",
@@ -1205,9 +1048,8 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
       }
     ],
     finalCallout: "Prenez aujourd'hui la décision d'une vie plus consciente et naturelle.",
-    finalDesc: "Bénéficiez d'un accès à vie immédiat à plus de 300 manuscrits et formules éprouvées de l'année 1910.",
+    finalDesc: "Recevez un accès immédiat à plus de 300 manuscrits et recettes éprouvées datant de 1910.",
     finalCta: "Je veux les manuscrits maintenant !",
-    finalGuaranteePill: "Garantie satisfait ou remboursé 15 jours · Paiement unique 21 €",
     footerOrg: "Naturopathie · Groupe de Méthodes Naturelles de Guérison",
     footerDisclaimer: "Contenu informatif et historique. Ne remplace en aucun cas un avis, diagnostic ou traitement médical. Consultez toujours un praticien qualifié.",
     legalNotice: "Mentions Légales",
@@ -1215,9 +1057,5 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     legalRedirectPart2: "",
     copyright: "2026 Naturopathie · Groupe de Méthodes Naturelles de Guérison",
 
-    // Sticky Bar
-    stickyOneTime: "Paiement unique",
-    stickyGuarantee: "15 jours de garantie",
-    stickyCta: "Accéder au Portail"
   }
 };

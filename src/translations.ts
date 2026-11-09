@@ -100,6 +100,19 @@ export interface TranslationBundle {
   vslModalSubject: string;
   vslBufferNotice: string;
 
+  // Hotmart checkout form
+  checkoutTitle: string;
+  checkoutDescription: string;
+  checkoutNameLabel: string;
+  checkoutEmailLabel: string;
+  checkoutAreaCodeLabel: string;
+  checkoutAreaCodePlaceholder: string;
+  checkoutPhoneNumberLabel: string;
+  checkoutPhoneNumberPlaceholder: string;
+  checkoutPhoneHint: string;
+  checkoutSubmit: string;
+  checkoutClose: string;
+
   // Section 01
   sec01Marker: string;
   sec01Tag: string;
@@ -218,6 +231,19 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     vslModalCompose: "E-Mail verfassen",
     vslModalSubject: "Anfrage zu Die verbotene Apotheke Archiv 1910",
     vslBufferNotice: "Puffer-Wechsel zu Video-Tag",
+
+    // Hotmart checkout form
+    checkoutTitle: "Weiter zum sicheren Checkout",
+    checkoutDescription: "Ihr Browser kann gespeicherte Daten vorschlagen. Beim Fortfahren werden Ihre Angaben an Hotmart übermittelt, um den Checkout vorauszufüllen.",
+    checkoutNameLabel: "Vollständiger Name",
+    checkoutEmailLabel: "E-Mail-Adresse",
+    checkoutAreaCodeLabel: "Vorwahl ohne Landesvorwahl",
+    checkoutAreaCodePlaceholder: "z. B. 06",
+    checkoutPhoneNumberLabel: "Telefonnummer ohne Vorwahl",
+    checkoutPhoneNumberPlaceholder: "z. B. 12345678",
+    checkoutPhoneHint: "Geben Sie die lokale Vorwahl und die restliche Rufnummer getrennt ein. Hotmart übernimmt die Landesvorwahl entsprechend dem im Checkout gewählten Land.",
+    checkoutSubmit: "Zum sicheren Checkout",
+    checkoutClose: "Formular schließen",
 
     // Section 01
     sec01Marker: "01",
@@ -395,6 +421,19 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     vslModalSubject: "Dúvida sobre A Farmácia Proibida Arquivo 1910",
     vslBufferNotice: "Alternando buffer para o vídeo",
 
+    // Hotmart checkout form
+    checkoutTitle: "Continue para o checkout seguro",
+    checkoutDescription: "Se disponíveis, seu navegador poderá sugerir dados salvos. Ao continuar, suas informações serão enviadas à Hotmart para pré-preencher o checkout.",
+    checkoutNameLabel: "Nome completo",
+    checkoutEmailLabel: "E-mail",
+    checkoutAreaCodeLabel: "DDD / código de área, sem DDI",
+    checkoutAreaCodePlaceholder: "Ex.: 06",
+    checkoutPhoneNumberLabel: "Número sem o DDD / código de área",
+    checkoutPhoneNumberPlaceholder: "Ex.: 12345678",
+    checkoutPhoneHint: "Informe o código de área e o número local separadamente. O DDI é associado ao país escolhido no checkout da Hotmart.",
+    checkoutSubmit: "Continuar para o checkout seguro",
+    checkoutClose: "Fechar formulário",
+
     // Section 01
     sec01Marker: "01",
     sec01Tag: "O Conflito Farmacêutico de 1910",
@@ -570,6 +609,19 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     vslModalCompose: "Compose email",
     vslModalSubject: "Inquiry about The Forbidden Pharmacy Archive 1910",
     vslBufferNotice: "Switching stream buffer to video tag",
+
+    // Hotmart checkout form
+    checkoutTitle: "Continue to secure checkout",
+    checkoutDescription: "Your browser may suggest saved details when available. When you continue, your information will be sent to Hotmart to prefill checkout.",
+    checkoutNameLabel: "Full name",
+    checkoutEmailLabel: "Email address",
+    checkoutAreaCodeLabel: "Area code, without country code",
+    checkoutAreaCodePlaceholder: "e.g. 06",
+    checkoutPhoneNumberLabel: "Phone number without area code",
+    checkoutPhoneNumberPlaceholder: "e.g. 12345678",
+    checkoutPhoneHint: "Enter the local area code and remaining number separately. Hotmart applies the calling code for the country selected in checkout.",
+    checkoutSubmit: "Continue to secure checkout",
+    checkoutClose: "Close form",
 
     // Section 01
     sec01Marker: "01",
@@ -747,6 +799,19 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     vslModalSubject: "Consulta sobre La Farmacia Prohibida Archivo 1910",
     vslBufferNotice: "Cambiando buffer al video",
 
+    // Hotmart checkout form
+    checkoutTitle: "Continuar al pago seguro",
+    checkoutDescription: "Si están disponibles, tu navegador puede sugerir datos guardados. Al continuar, tus datos se enviarán a Hotmart para completar el pago automáticamente.",
+    checkoutNameLabel: "Nombre completo",
+    checkoutEmailLabel: "Correo electrónico",
+    checkoutAreaCodeLabel: "Código de área, sin prefijo internacional",
+    checkoutAreaCodePlaceholder: "p. ej., 06",
+    checkoutPhoneNumberLabel: "Número sin el código de área",
+    checkoutPhoneNumberPlaceholder: "p. ej., 12345678",
+    checkoutPhoneHint: "Introduce por separado el código de área local y el resto del número. Hotmart aplica el prefijo internacional del país elegido en el pago.",
+    checkoutSubmit: "Continuar al pago seguro",
+    checkoutClose: "Cerrar formulario",
+
     // Section 01
     sec01Marker: "01",
     sec01Tag: "El Conflicto Farmacéutico de 1910",
@@ -922,6 +987,19 @@ export const translations: Record<SupportedLanguage, TranslationBundle> = {
     vslModalCompose: "Rédiger un courriel",
     vslModalSubject: "Question sur La Pharmacie Interdite Archives 1910",
     vslBufferNotice: "Bascule du flux vidéo",
+
+    // Hotmart checkout form
+    checkoutTitle: "Continuer vers le paiement sécurisé",
+    checkoutDescription: "Votre navigateur peut suggérer des données enregistrées si elles sont disponibles. En continuant, vos informations seront transmises à Hotmart pour préremplir le paiement.",
+    checkoutNameLabel: "Nom complet",
+    checkoutEmailLabel: "Adresse e-mail",
+    checkoutAreaCodeLabel: "Indicatif régional, sans indicatif du pays",
+    checkoutAreaCodePlaceholder: "Ex. : 06",
+    checkoutPhoneNumberLabel: "Numéro sans l’indicatif régional",
+    checkoutPhoneNumberPlaceholder: "Ex. : 12345678",
+    checkoutPhoneHint: "Saisissez séparément l’indicatif local et le reste du numéro. Hotmart applique l’indicatif du pays choisi dans le paiement.",
+    checkoutSubmit: "Continuer vers le paiement sécurisé",
+    checkoutClose: "Fermer le formulaire",
 
     // Section 01
     sec01Marker: "01",

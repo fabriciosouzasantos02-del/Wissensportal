@@ -1,14 +1,14 @@
 import React from 'react';
 import { ArrowRight, Sparkles, BookOpen, ChevronDown } from 'lucide-react';
 import { VslVideoPlayer } from './VslVideoPlayer';
-import { HOTMART_CHECKOUT_URL } from '../types';
 import { SupportedLanguage, translations } from '../translations';
 
 interface HeroSectionProps {
   currentLang: SupportedLanguage;
+  onCheckoutClick: () => void;
 }
 
-export const HeroSection: React.FC<HeroSectionProps> = ({ currentLang }) => {
+export const HeroSection: React.FC<HeroSectionProps> = ({ currentLang, onCheckoutClick }) => {
   const t = translations[currentLang] || translations.de;
 
   const handleScrollToNext = () => {
@@ -63,16 +63,16 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ currentLang }) => {
         {/* Primary Call to Action Buttons */}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-md mx-auto">
           {/* Main Hotmart Checkout Link */}
-          <a
-            href={HOTMART_CHECKOUT_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            type="button"
+            onClick={onCheckoutClick}
+            aria-haspopup="dialog"
             id="hero-cta-portal"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-[#e3bf73] via-[#dfb76c] to-[#ba8f3b] text-[#080d09] font-bold text-base sm:text-lg tracking-wide shadow-[0_4px_25px_rgba(223,183,108,0.35)] hover:shadow-[0_6px_35px_rgba(223,183,108,0.5)] hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer"
           >
             <span>{t.ctaMain}</span>
             <ArrowRight className="w-5 h-5 text-[#080d09]" />
-          </a>
+          </button>
 
           {/* Secondary Learn More Button */}
           <button

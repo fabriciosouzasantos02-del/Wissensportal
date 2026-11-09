@@ -7,14 +7,14 @@ import {
   Clock, 
   ShieldCheck
 } from 'lucide-react';
-import { HOTMART_CHECKOUT_URL } from '../types';
 import { SupportedLanguage, translations } from '../translations';
 
 interface Section02PlatformProps {
   currentLang: SupportedLanguage;
+  onCheckoutClick: () => void;
 }
 
-export const Section02Platform: React.FC<Section02PlatformProps> = ({ currentLang }) => {
+export const Section02Platform: React.FC<Section02PlatformProps> = ({ currentLang, onCheckoutClick }) => {
   const t = translations[currentLang] || translations.de;
 
   return (
@@ -86,16 +86,16 @@ export const Section02Platform: React.FC<Section02PlatformProps> = ({ currentLan
 
             {/* Zum Portal CTA */}
             <div className="pt-2">
-              <a
-                href={HOTMART_CHECKOUT_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                type="button"
+                onClick={onCheckoutClick}
+                aria-haspopup="dialog"
                 id="section02-cta-portal"
                 className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-xl bg-gradient-to-r from-[#dfb76c] to-[#b88c34] text-[#080d09] font-bold text-base shadow-lg hover:shadow-[0_0_25px_rgba(223,183,108,0.4)] transition-all cursor-pointer"
               >
                 <span>{t.sec02Cta}</span>
                 <ExternalLink className="w-4 h-4 text-[#080d09]" />
-              </a>
+              </button>
             </div>
           </div>
 

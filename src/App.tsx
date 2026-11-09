@@ -7,10 +7,12 @@ import { Section03Discover } from './components/Section03Discover';
 import { Section04HowItWorks } from './components/Section04HowItWorks';
 import { Section06FAQ } from './components/Section06FAQ';
 import { SupportedLanguage, detectUserLanguage } from './translations';
+import { HotmartCheckoutModal } from './components/HotmartCheckoutModal';
 
 export default function App() {
   const [currentLang, setCurrentLang] = useState<SupportedLanguage>('de');
   const [detectedLang, setDetectedLang] = useState<SupportedLanguage>('de');
+  const [checkoutOpen, setCheckoutOpen] = useState(false);
 
   useEffect(() => {
     // 1. Check if user already manually selected a preferred language previously
@@ -50,6 +52,8 @@ export default function App() {
     setCurrentLang(lang);
   };
 
+  const openCheckout = () => setCheckoutOpen(true);
+
   return (
     <div className="min-h-screen bg-[#080d09] text-[#e3ded4] font-sans selection:bg-[#dfb76c] selection:text-[#080d09]">
       {/* Top Banner: In-App Browser Detection & Language Switcher (DE, PT, EN, ES, FR) */}
@@ -62,13 +66,13 @@ export default function App() {
       {/* Main Content Sections */}
       <main>
         {/* Hero Section with VSL Multi-Tag Player and Core Manifesto */}
-        <HeroSection currentLang={currentLang} />
+          <HeroSection currentLang={currentLang} onCheckoutClick={openCheckout} />
 
         {/* Section 01: Die Pharmaindustrie entwickelt keine Heilmittel */}
         <Section01Pharma currentLang={currentLang} />
 
         {/* Section 02: Die Webplattform & 300+ Lösungen */}
-        <Section02Platform currentLang={currentLang} />
+          <Section02Platform currentLang={currentLang} onCheckoutClick={openCheckout} />
 
         {/* Section 03: WAS SIE ENTDECKEN WERDEN */}
         <Section03Discover currentLang={currentLang} />
@@ -77,9 +81,16 @@ export default function App() {
         <Section04HowItWorks currentLang={currentLang} />
 
         {/* Section 06: HÄUFIG GESTELLTE FRAGEN & Rechtlicher Hinweis */}
-        <Section06FAQ currentLang={currentLang} />
-      </main>
+          <Section06FAQ currentLang={currentLang} onCheckoutClick={openCheckout} />
+        </main>
 
-    </div>
+        {checkoutOpen && (
+          <HotmartCheckoutModal
+            currentLang={currentLang}
+            onClose={() => setCheckoutOpen(false)}
+          />
+        )}
+
+      </div>
   );
 }

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { ChevronDown, ArrowRight } from 'lucide-react';
-import { HOTMART_CHECKOUT_URL } from '../types';
 import { SupportedLanguage, translations } from '../translations';
 
 interface Section06FAQProps {
   currentLang: SupportedLanguage;
+  onCheckoutClick: () => void;
 }
 
-export const Section06FAQ: React.FC<Section06FAQProps> = ({ currentLang }) => {
+export const Section06FAQ: React.FC<Section06FAQProps> = ({ currentLang, onCheckoutClick }) => {
   const t = translations[currentLang] || translations.de;
   const faqItems = t.faqItems || [];
 
@@ -84,16 +84,16 @@ export const Section06FAQ: React.FC<Section06FAQProps> = ({ currentLang }) => {
 
             {/* Final CTA Button */}
             <div>
-              <a
-                href={HOTMART_CHECKOUT_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                type="button"
+                onClick={onCheckoutClick}
+                aria-haspopup="dialog"
                 id="cta-final-manuskript"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-5 rounded-xl bg-gradient-to-r from-[#e3bf73] via-[#dfb76c] to-[#ba8f3b] text-[#080d09] font-extrabold text-base sm:text-lg tracking-wide uppercase shadow-[0_4px_30px_rgba(223,183,108,0.45)] hover:shadow-[0_6px_40px_rgba(223,183,108,0.6)] hover:scale-105 active:scale-95 transition-all cursor-pointer"
               >
                 <span>{t.finalCta}</span>
                 <ArrowRight className="w-5 h-5 text-[#080d09]" />
-              </a>
+              </button>
             </div>
 
           </div>
